@@ -13,7 +13,7 @@ gem "puma", ">= 5.0"
 gem 'devise'
 gem 'devise-jwt'
 gem 'doorkeeper'
-
+gem 'csv'
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
@@ -53,3 +53,7 @@ group :development, :test do
 end
 
 
+
+gem "kaminari", "~> 1.2"
+
+gem "redis", "~> 5.4"
