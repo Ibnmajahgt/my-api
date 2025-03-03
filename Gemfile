@@ -12,6 +12,7 @@ gem "puma", ">= 5.0"
 # Authentication gems
 gem 'devise'
 gem 'devise-jwt'
+gem 'doorkeeper'
 
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
